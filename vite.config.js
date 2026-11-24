@@ -1,10 +1,10 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/react-mini-project/',
-  css: {
-    devSourcemap: true
+  css:{
+    devSourcemap:true
   }
 })
